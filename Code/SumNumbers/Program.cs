@@ -10,7 +10,7 @@ namespace SumNumbers
 {
     public class Program
     {
-		public static void Main()
+        public static void Main()
         {
             List<int> num1 = new List<int> { 1, 2, 3, 4, 5, 6 };
             List<int> num2 = new List<int> { 1, 2, 3, 4, 5, 6 };
@@ -21,5 +21,5 @@ namespace SumNumbers
 
             Console.ReadKey();
         }
-	}
+    }
 }

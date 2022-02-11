@@ -19,14 +19,14 @@ namespace SumCalculator.UnitTests
 
             var result = SumNumbers.Calculators.SumCalculator.Sum(num1, num2);
 
-            Assert.AreEqual(777777, result.ToInt());       
+            Assert.AreEqual(777777, result.ToInt());
         }
 
         [Test]
         public void SumTwoNumsWithDifferentLength666666()
         {
             List<int> num1 = new List<int> { 1, 2, 3, 4, 5, 6 };
-            List<int> num2 = new List<int> { 1, 2, 3, 4, 5};
+            List<int> num2 = new List<int> { 1, 2, 3, 4, 5 };
 
             var result = SumNumbers.Calculators.SumCalculator.Sum(num1, num2);
 
